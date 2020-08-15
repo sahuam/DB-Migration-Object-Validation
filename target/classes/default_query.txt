@@ -1,0 +1,2 @@
+select count(*) from INFORMATION_SCHEMA.TABLES where TABLE_SCHEMA='sys'
+select COUNT(SCHEMA_NAME) from information_schema.SCHEMATA
